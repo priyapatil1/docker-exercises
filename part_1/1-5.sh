@@ -12,6 +12,3 @@ docker image ls
 # Go inside the alpine container and make sure the secret message functionality is the same. Alpine version doesn’t have bash but it has sh
 
 # docker run -it devopsdockeruh/pull_exercise
-
-# Secret message: "This is the secret message"
-

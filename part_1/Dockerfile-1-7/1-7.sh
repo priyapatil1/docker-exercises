@@ -12,6 +12,8 @@
 
 # Return the Dockerfile and the command you used to run the container.
 
+docker build . -t web-server
+
 # Running the built “web-server” image should look like this:
 
 # $ docker run web-server

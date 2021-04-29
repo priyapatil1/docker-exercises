@@ -6,7 +6,11 @@
 
 # Make a script file on you local machine with such content as echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;. Transfer this file to an image and run it inside the container using CMD. Build the image with tag “curler”.
 
+docker build . -t curler
+
 # Run the new curler image with the correct flags and input helsinki.fi into it. Output should match the 1.4 one.
+
+ echo "helsinki.fi" | docker run -i  curl-website
 
 # Return both Dockerfile and the command you used to run the container.
 
